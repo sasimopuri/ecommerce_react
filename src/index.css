@@ -11,3 +11,118 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav{
+  padding: 20px;
+  height: 30px;
+  width: 100%;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.nav>img{
+  position: relative;
+  height: 30px;
+  margin: auto;
+  padding-left: 40px;
+}
+.group>img{
+  margin: auto;
+  position: relative;
+  width: 600px;
+}
+.group{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 30px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 40px;
+  padding: 10px 20px;
+  width: 350px;
+  height: 550px;
+  /* border: 1px solid red; */
+  box-shadow: 0px 2.98256px 7.4564px rebeccapurple;
+  border-radius: 10px;
+  position: relative;
+  
+}
+.card_image{
+  width: 320px;
+  height: 400px;
+  border-radius: 5px;
+}
+.title{
+  width: 300px;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* .title:hover{
+  white-space: normal;
+} */
+
+.price{
+  text-align: left;
+}
+.description{
+  height: 20px;
+  overflow: hidden;
+  /* white-space: nowrap; */
+
+  text-overflow: ellipsis;
+  
+}
+
+/* .description:hover{
+  white-space: normal;
+  overflow: visible;
+} */
+.card_image{
+  margin-left: 10px;
+}
+.title,.description,.price,.rating{
+  margin: 5px 32px;
+}
+.submit{
+  padding: 5px 15px;
+  border-radius: 7px;
+  /* margin: auto; */
+}
+
+.cards_display{
+  display: flex;
+  flex-wrap: wrap;
+}
+.star_img{
+  width: 25px;
+  margin-left: 25px;
+}
+.star_img:hover{
+  cursor: pointer;
+}
+.buy_cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  gap: 50px;
+  position: absolute;
+  top: 90%;
+  left: 30%;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  margin: 2px;
+}
+.boxes{
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  gap: 10px;
+}
+
