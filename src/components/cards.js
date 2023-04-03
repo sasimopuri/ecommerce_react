@@ -10,7 +10,7 @@ export default function Cards(props){
     function cart_btn(){
         return(
             <>
-                <button onClick={handleFavClick} className="submit">Add to cart</button>
+                <button onClick={handleFavClick} className="submit">Wishlist</button>
             </>
         )
     }
@@ -22,10 +22,11 @@ export default function Cards(props){
             </>
         )
     }
-
+    
     let fav_img= fav? cart_btn() : star_img();
     return(
         <>
+                
             <div className="card">
                 <img className='card_image' src={props.img} alt="" />
                 <h3 className="title">{props.title}</h3>
